@@ -15,6 +15,7 @@ public class CartSteps {
     private ProductPage productPage;
     private final WebDriver driver = BaseClass.getDriver();
     private final Logger logger = BaseClass.getLogger();
+    //
 
     @When("I select the product {string} from the search results")
     public void selectProductFromSearchResults(String productName) {
